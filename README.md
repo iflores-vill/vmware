@@ -1,1 +1,1 @@
-# Creación de una VM en VMware con mudulo vmware_guest
+# Creación de una VM en VMware con módulo vmware_guest
