@@ -9,6 +9,8 @@
         username: "{{ vcenter_username }}"
         password: "{{ vcenter_password }}"
         validate_certs: False
+        datacenter: Datacenter
+        #cluster: cluster
         name: Test_VM_FTower
         state: poweredon
         template: vmware-deploy
