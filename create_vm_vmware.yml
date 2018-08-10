@@ -5,13 +5,13 @@
   tasks:
     - name: Create a virtual machine from a template
        vmware_guest:
-        hostname: "{{ vcenter_ip }}"
-        username: "{{ vcenter_username }}"
-        password: "{{ vcenter_password }}"
-        validate_certs: False
-        name: Test_VM_FTower
-        state: poweredon
-        template: vmware-deploy
+         hostname: "{{ vcenter_ip }}"
+         username: "{{ vcenter_username }}"
+         password: "{{ vcenter_password }}"
+         validate_certs: False
+         name: Test_VM_FTower
+         state: poweredon
+         template: vmware-deploy
        hardware:
          memory_mb: 2048
          num_cpus: 2
