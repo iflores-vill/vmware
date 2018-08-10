@@ -1,0 +1,10 @@
+---
+vcenter_ip: "tu_IP"
+vcenter_username: "tu_usuario"
+vcenter_password: "tu_password"
+vmware_datacenter: "Datacenter"
+vmware_cluster: "tu_cluster"
+vm_name: "TestVM-001"
+vmware_template: "tu_template"
+vm_ram: "2048"
+vm_cpu: "1"
