@@ -1,0 +1,12 @@
+---
+vcenter_ip: "hostname"
+vcenter_username: "user"
+vcenter_password: "password"
+vware_datacenter: "Datacenter"
+#vmware_cluster: "cluster"
+vm_name: "TestVM"
+vmware_template: "rhel7template"
+vm_ram: "2"
+vm_cpu: "1"
+max_retries: 3
+retry_interval: 5
