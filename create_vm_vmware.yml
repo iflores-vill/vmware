@@ -19,5 +19,5 @@
           memory_mb: "{{ vm_ram  }}"
           num_cpus: "{{ vm_cpu }}"
       register: create_vm_rg
-      ignore_errors: True
+      #ignore_errors: True
       
