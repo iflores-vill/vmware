@@ -13,7 +13,7 @@
         #cluster: cluster
         name: Test_VM_FTower
         state: poweredon
-        template: vmware-deploy
+        template: rhel7template
         hardware:
           memory_mb: 2048
           num_cpus: 2
