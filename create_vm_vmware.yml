@@ -10,7 +10,7 @@
         password: "{{ vcenter_password }}"
         validate_certs: False
         datacenter: "{{ vmware_datacenter }}"
-        #cluster: "{{ vmware_cluster }}"
+        cluster: "{{ vmware_cluster }}"
         name: "{{ vm_name }}"
         state: poweredon
         template: "{{ vmware_template }}"
